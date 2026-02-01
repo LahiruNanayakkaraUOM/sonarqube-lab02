@@ -4,9 +4,9 @@ public class Calculator {
 
     public int calculate(int a, int b, String op) {
         switch (op) {
-            case "add", "add-again":
+            case "add":
                 return add(a, b);
-            case "sub", "sub-again":
+            case "sub":
                 return subtract(a, b);
             case "mul":
                 return multiply(a, b);
